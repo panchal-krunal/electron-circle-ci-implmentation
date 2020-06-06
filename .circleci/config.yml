@@ -6,6 +6,10 @@ jobs:
     steps:
       - checkout
       - run: yarn && yarn release --win
+      - run: 
+          name: "echo env variable"
+          command: |
+            echo $GH_TOKEN
 
   build_macos:
     macos:
