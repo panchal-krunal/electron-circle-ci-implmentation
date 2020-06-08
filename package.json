@@ -86,6 +86,7 @@
     "run-script-os-fix": "^1.0.4"
   },
   "dependencies": {
-    "electron-is-dev": "^1.0.1"
+    "electron-is-dev": "^1.0.1",
+    "@textile/wallet": "^0.3.0"
   }
 }
